@@ -6,6 +6,7 @@ user-invocable: true
 user-invokable: true
 tags: ["storytelling", "creative-writing", "directing", "pre-production", "scriptwriting", "narrative-design", "cinematography", "seedance-20"]
 metadata: {"version": "4.0.0", "updated": "2026-02-28", "openclaw": {"emoji": "🎭", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🎭", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🎭", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+  "parent": "seedance-20",
 ---
 
 # seedance-interview · The Director\'s Journey (v4.0)

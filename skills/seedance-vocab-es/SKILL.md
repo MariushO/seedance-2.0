@@ -1,11 +1,11 @@
 ---
 name: seedance-vocab-es
-description: 'Look up 270+ Spanish cinematic, photography, and production terms — Castilian and Latin American — with English equivalents and prompt-ready phrases for Seedance 2.0 across 13 categories. Use when writing prompts in Spanish or translating production concepts into Spanish Seedance vocabulary.'
+description: 'Look up 450+ Spanish cinematic, photography, and production terms — Castilian and Latin American — with English equivalents and prompt-ready phrases for Seedance 2.0 across 20 categories, including filter-safe vocabulary for action, weapons, and combat. Use when writing prompts in Spanish or translating production concepts into Spanish Seedance vocabulary.'
 license: MIT
 user-invocable: true
 user-invokable: true
 tags: ["vocabulary", "spanish", "i18n", "openclaw", "antigravity", "gemini-cli"]
-metadata: {"version": "4.0.0", "updated": "2026-02-28", "openclaw": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "parent": "seedance-20", "antigravity": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+metadata: {"version": "4.2.0", "updated": "2026-03-02", "openclaw": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "parent": "seedance-20", "antigravity": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🇪🇸", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
 ---
 
 # seedance-vocab-es · Vocabulario Cinematográfico en Español
@@ -17,43 +17,324 @@ Los prompts en español funcionan especialmente bien para atmósferas cálidas, 
 
 ## E.1 Tamaño de Plano · Shot Sizes
 
-| Español | English | Uso en prompt |
-|---|---|---|
-| Gran plano general | Extreme wide shot | `Gran plano general para establecer el espacio` |
-| Plano general | Wide shot | `Plano general, entorno completo` |
-| Plano entero | Full shot | `Plano entero, cuerpo completo` |
-| Plano americano | Medium long shot (waist+) | `Plano americano, muslos arriba` |
-| Plano medio | Medium shot | `Plano medio, cintura arriba` |
-| Primer plano | Close-up | `Primer plano del rostro` |
-| Primerísimo primer plano | Extreme close-up | `Primerísimo primer plano, ojos` |
-| Plano sobre el hombro | Over-the-shoulder | `Plano sobre el hombro en diálogo` |
-| Plano de dos | Two-shot | `Plano de dos, conversación` |
-| Plano de inserción | Insert shot | `Inserción del objeto clave` |
-| Plano de reacción | Reaction shot | `Reacción del personaje, sorpresa` |
+| Español | English |
+|---|---|
+| plano general extremo | Extreme wide shot |
+| plano general | Wide shot |
+| plano entero | Full shot |
+| plano medio | Medium shot |
+| plano medio corto | Medium close-up |
+| primer plano | Close-up |
+| primerísimo primer plano | Extreme close-up |
+| plano sobre el hombro | Over-the-shoulder |
+| plano de dos | Two-shot |
+| plano subjetivo / POV | POV / first-person |
+| vista de pájaro / cenital | Bird's-eye view |
+| contrapicado | Low angle |
+| picado | High angle |
+| plano holandés | Dutch angle |
+| plano detalle / inserto | Insert shot |
 
 ---
 
 ## E.2 Movimientos de Cámara · Camera Movements
 
-| Español | English | Uso en prompt |
-|---|---|---|
-| Travelling de acercamiento | Dolly push | `Travelling lento de acercamiento al rostro` |
-| Travelling de alejamiento | Dolly pull | `Travelling rápido de alejamiento, revela espacio` |
-| Panorámica horizontal | Pan | `Panorámica horizontal siguiendo al personaje` |
-| Panorámica vertical (tilt) | Tilt | `Tilt ascendente hasta la cima del edificio` |
-| Travelling lateral | Lateral tracking | `Travelling lateral paralelo al movimiento` |
-| Grúa ascendente | Crane up | `Grúa asciende lentamente` |
-| Grúa descendente | Crane down | `Grúa desciende hasta el suelo` |
-| Movimiento orbital | Orbit / Arc | `Movimiento orbital alrededor del sujeto` |
-| Barrido | Whip pan | `Barrido rápido como transición` |
-| Plano secuencia | One-take | `Plano secuencia sin cortes` |
-| Cámara en mano | Handheld | `Cámara en mano, sensación documental` |
-| Steadicam | Steadicam | `Steadicam siguiendo al personaje` |
-| Dron | Drone / Aerial | `Plano aéreo con dron` |
+| Español | English |
+|---|---|
+| cámara fija | Locked-off / static |
+| travelling de acercamiento | Dolly push-in |
+| travelling de alejamiento | Dolly pull-out |
+| panorámica horizontal | Pan left / right |
+| panorámica vertical | Tilt up / down |
+| travelling circular | Orbit / circling |
+| travelling de seguimiento | Tracking / follow |
+| plano grúa | Crane shot |
+| cámara en mano | Handheld |
+| steadicam | Steadicam |
+| plano secuencia | One-take / oner |
+| panorámica rápida | Whip pan |
+| cambio de foco | Rack focus |
+| efecto vértigo / contrazoom | Hitchcock zoom |
+| acercamiento con dron | Drone approach |
 
 ---
 
-## E.3 Óptica y Lentes · Lens & Optics
+## E.3 Iluminación · Lighting
+
+| Español | English |
+|---|---|
+| luz principal | Key light |
+| luz de relleno | Fill light |
+| luz de contorno | Rim light |
+| contraluz | Backlight |
+| luz práctica | Practical light |
+| iluminación en clave baja | Low-key |
+| iluminación en clave alta | High-key |
+| rayos de luz / efecto Tyndall | God rays / Tyndall |
+| hora dorada | Golden hour |
+| luz dura | Hard light |
+| luz suave / difusa | Soft / diffused light |
+| luz motivada | Motivated light |
+| luz ambiental | Ambient light |
+| luz de neón | Neon light |
+| luz de fuego / parpadeo | Firelight / flicker |
+| silueta | Silhouette |
+| luz de día nublado | Overcast / flat |
+
+---
+
+## E.4 Iluminación · Temperatura de Color y Atmósfera (Lighting - Color Temp & Atmosphere)
+
+| Español | English |
+|---|---|
+| ámbar cálido | Warm amber |
+| azul frío | Cool blue |
+| blanco neutro | Neutral white |
+| niebla ligera | Thin fog |
+| niebla densa | Dense fog |
+| motas de polvo | Dust motes |
+| lluvia ligera | Light rain |
+| lluvia torrencial | Heavy rain |
+| vaho del aliento | Breath mist |
+| espejismo de calor | Heat shimmer |
+| humo a la deriva | Smoke drift |
+| nieve cayendo | Snow falling |
+
+---
+
+## E.5 Estilo y Textura · Style & Texture
+
+| Español | English |
+|---|---|
+| lente anamórfica | Anamorphic lens |
+| lente esférica | Spherical lens |
+| grano de película | Film grain |
+| digital limpio | Digital clean |
+| profundidad de campo reducida | Shallow depth of field |
+| gran profundidad de campo | Deep depth of field |
+| destello de lente | Lens flare |
+| paleta apagada | Muted palette |
+| desaturado | Desaturated |
+| alto contraste | High contrast |
+| negros aplastados | Crushed blacks |
+| proceso de blanqueo | Bleach bypass |
+| sombreado cel | Cel-shaded |
+| animación 2D | 2D animation |
+| stop motion | Stop-motion |
+| lavado de acuarela | Watercolor wash |
+| línea de tinta | Ink outline |
+| fotorrealista | Photorealistic |
+
+---
+
+## E.6 Movimiento y Ritmo · Motion & Timing
+
+| Español | English |
+|---|---|
+| cámara lenta | Slow motion |
+| tiempo real | Real-time |
+| time-lapse | Time-lapse |
+| fotograma congelado | Freeze frame |
+| aceleración progresiva | Ease in |
+| desaceleración progresiva | Ease out |
+| sincronización al ritmo | Beat-sync |
+| fotograma de barrido | Smear frame |
+| animación a doses | Motion on twos |
+| transición de barrido | Whip transition |
+| corte por continuidad | Match cut |
+| corte brusco | Smash cut |
+| fundido encadenado | Dissolve |
+| fundido a negro | Fade to black |
+
+---
+
+## E.7 Vocabulario Seguro de Acción y Combate · Safe Action & Combat Vocabulary
+
+| Español | English |
+|---|---|
+| impacto | Impact |
+| colisión | Collision |
+| inercia / impulso | Momentum |
+| intercambio de fuerza | Force exchange |
+| confrontación dramática | Dramatic confrontation |
+| parada / desvío | Parry / deflect |
+| contragolpe / contramovimiento | Counter-move |
+| liberación de energía | Energy release |
+| coreografía de acción cinematográfica | Cinematic combat choreography |
+| choque de poder | Power clash |
+| evasión / esquiva lateral | Evasion / sidestep |
+| arco aéreo | Aerial arc |
+| postura de recuperación | Recovery stance |
+| absorber la fuerza | Absorb the force |
+| deslizarse hacia atrás | Slide back |
+| cascada de chispas | Sparks cascade |
+| onda de choque | Shockwave ripple |
+| fallo estructural | Structural failure |
+| dispersión rápida | Rapid dispersal |
+
+---
+
+## E.8 Vocabulario Seguro de Armas · Safe Weapon Vocabulary
+
+| Español | English |
+|---|---|
+| instrumento de acero alargado | Elongated steel instrument |
+| implemento forjado | Forged implement |
+| filo de acero pulido | Polished steel edge |
+| equipo metálico | Metallic equipment |
+| bastón reforzado | Reinforced staff |
+| equipo táctico | Tactical gear |
+| implemento protector | Protective implement |
+| doble filo | Dual edges |
+| acero curvado | Curved steel |
+| instrumento contundente | Blunt instrument |
+
+---
+
+## E.9 Vocabulario Seguro de Ropa y Armadura · Safe Clothing & Armor Vocabulary
+
+| Español | English |
+|---|---|
+| traje táctico | Tactical bodysuit |
+| traje de combate reforzado | Reinforced combat suit |
+| chaleco blindado | Armored vest |
+| armadura ligera | Lightweight armor |
+| placas de fibra de carbono | Carbon-fiber plating |
+| botas de combate | Combat boots |
+| uniforme de campo | Field uniform |
+| ropa de servicio | Duty wear |
+| placas protectoras | Protective plating |
+| armadura de tela multicapa | Layered fabric armor |
+| capa con capucha | Hooded cloak |
+| túnica de cobertura completa | Full-coverage robe |
+| brazales de cuero | Leather bracers |
+| hombrera | Shoulder pauldron |
+| fajín / cinturón táctico | Waist sash / utility belt |
+| guanteletes | Gauntlets |
+| grebas | Greaves / shin guards |
+| capa de cota de malla | Chainmail layer |
+
+---
+
+## E.10 Vocabulario Seguro de Cuerpo y Físico · Safe Body & Physique Vocabulary
+
+| Español | English |
+|---|---|
+| complexión atlética | Athletic build |
+| postura de combate | Combat-ready stance |
+| físico entrenado | Trained physique |
+| constitución ágil | Agile frame |
+| esbelto y equilibrado | Lean and balanced |
+| postura disciplinada | Disciplined posture |
+| de hombros anchos | Broad-shouldered |
+| complexión compacta | Compact build |
+| figura imponente | Towering figure |
+| rasgos curtidos | Weathered features |
+
+---
+
+## E.11 Efectos Visuales · Partículas y Energía (VFX - Particles & Energy)
+
+| Español | English |
+|---|---|
+| estela de partículas | Particle trail |
+| aura de energía | Energy aura |
+| ráfaga de chispas | Spark burst |
+| ascuas a la deriva | Ember drift |
+| rayo de energía | Energy beam |
+| barrera translúcida | Translucent barrier |
+| brillo pulsante | Pulsing glow |
+| cristalización de hielo | Ice crystallization |
+| lengua de fuego | Flame tongue |
+| arco eléctrico | Lightning arc |
+| grieta en el suelo | Ground crack |
+| dispersión de escombros | Debris scatter |
+| erupción de polvo | Dust cloud eruption |
+| expansión de onda de choque | Shockwave expansion |
+| distorsión del aire | Air distortion |
+
+---
+
+## E.12 Sonido · Sonido Dieléctrico (Sound - Diegetic Audio)
+
+| Español | English |
+|---|---|
+| resonancia metálica | Metallic ring |
+| desmoronamiento de piedra | Stone crumble |
+| aullido del viento | Wind howl |
+| roce de tela | Fabric rustle |
+| pisadas sobre piedra | Footstep on stone |
+| respiración pesada | Heavy breathing |
+| cristal rompiéndose | Glass shatter |
+| goteo de agua | Water drip |
+| trueno | Thunder crack |
+| crepitar del fuego | Fire crackle |
+| silencio ambiental | Ambient silence |
+| retumbar lejano | Distant rumble |
+| zumbido de energía | Energy hum |
+| lluvia sobre la superficie | Rain on surface |
+
+---
+
+## E.13 Entorno · Escenarios Seguros (Environment - Safe Scene-Setting)
+
+| Español | English |
+|---|---|
+| ruinas de piedra antiguas | Ancient stone ruins |
+| templo cubierto de vegetación | Overgrown temple |
+| pasillo iluminado con antorchas | Torch-lit corridor |
+| claro iluminado por la luna | Moonlit clearing |
+| calle empapada por la lluvia | Rain-soaked street |
+| páramo volcánico | Volcanic wasteland |
+| superficie de lago congelado | Frozen lake surface |
+| almacén industrial | Industrial warehouse |
+| callejón con luces de neón | Neon-lit alley |
+| azotea de noche | Rooftop at night |
+| dosel de bosque denso | Dense forest canopy |
+| caverna submarina | Underwater cavern |
+| dunas del desierto al atardecer | Desert dunes at dusk |
+| interior de catedral | Cathedral interior |
+| campo de escombros flotantes | Floating debris field |
+
+---
+
+## E.14 Material y Superficie · Material & Surface
+
+| Español | English |
+|---|---|
+| aluminio cepillado | Brushed aluminum |
+| cuero envejecido | Aged leather |
+| piedra labrada en bruto | Rough-hewn stone |
+| obsidiana pulida | Polished obsidian |
+| hierro corroído | Corroded iron |
+| vidrio esmerilado | Frosted glass |
+| hormigón mojado | Wet concrete |
+| seda cruda | Raw silk |
+| bronce deslustrado | Tarnished bronze |
+| cerámica agrietada | Cracked ceramic |
+| madera carbonizada | Charred wood |
+| cubierto de musgo | Moss-covered |
+
+---
+
+## E.15 Contexto de Producción · Production Context Tokens (Filter Shield)
+
+| Español | English |
+|---|---|
+| cortometraje cinematográfico | Cinematic short film |
+| secuencia de coreografía de acción | Action choreography sequence |
+| informe de producción cinematográfica | Film production brief |
+| referencia de coordinación de escenas | Stunt coordination reference |
+| composición de efectos visuales | Visual effects composition |
+| etalonaje de postproducción | Post-production grade |
+| plano de previsualización | Pre-visualization shot |
+| referencia de captura de movimiento | Motion capture reference |
+| secuencia de corte editorial | Editorial cut sequence |
+| capa de diseño sonoro | Sound design layer |
+
+---
+
+## E.16 Óptica y Lentes · Lens & Optics
 
 | Español | English | Uso en prompt |
 |---|---|---|
@@ -70,7 +351,7 @@ Los prompts en español funcionan especialmente bien para atmósferas cálidas, 
 
 ---
 
-## E.4 Composición · Composition
+## E.17 Composición · Composition
 
 | Español | English | Uso en prompt |
 |---|---|---|
@@ -84,72 +365,7 @@ Los prompts en español funcionan especialmente bien para atmósferas cálidas, 
 
 ---
 
-## E.5 Iluminación · Lighting Terminology
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Luz principal | Key light | `Luz principal a 45° cámara izquierda` |
-| Luz de relleno | Fill light | `Luz de relleno suave` |
-| Contraluz / Luz de reborde | Rim / Back light | `Contraluz que perfila la silueta` |
-| Luz dura | Hard light | `Luz dura, alto contraste` |
-| Luz suave | Soft light | `Luz difusa, sombras suaves` |
-| Hora dorada | Golden hour | `Hora dorada, luz cálida horizontal` |
-| Hora azul | Blue hour | `Hora azul, tonos fríos al anochecer` |
-| Rayos de dios | God rays | `Rayos de luz entre las ramas` |
-| Luz de neón | Neon light | `Neón de colores reflejado en la lluvia` |
-| Luz de vela | Candlelight | `Luz de vela temblorosa` |
-| Claroscuro | Chiaroscuro | `Claroscuro dramático, estilo Caravaggio` |
-| Chiaroscuro | Chiaroscuro (same term used) | `Alto contraste luz/sombra` |
-
----
-
-## E.6 Color y Tono · Color & Tone
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Temperatura de color | Color tone | `Tonos cálidos` · `Tonos fríos` |
-| Saturación | Saturation | `Baja saturación, decolorado` |
-| Contraste | Contrast | `Alto contraste, dramático` |
-| Etalonaje / Gradación de color | Color grading | `Etalonaje cinematográfico` |
-| Grano de película | Film grain | `Grano de 35mm` |
-| Blanco y negro | Black and white | `Blanco y negro de alto contraste` |
-| Sepia | Sepia | `Sepia nostálgico` |
-| Virado | Color toning | `Virado azul oscuro` |
-| Vívido | Vivid | `Colores vívidos, saturados` |
-
----
-
-## E.7 Tiempo y Movimiento · Time, Pacing & Motion
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Cámara lenta | Slow motion | `Cámara lenta a 0.2× velocidad` |
-| Cámara rápida | Fast motion | `Cámara rápida, paso del tiempo` |
-| Time-lapse | Timelapse | `Time-lapse de nubes` |
-| Sincronía con el ritmo | Beat sync | `Cortes sincronizados al ritmo` |
-| Transición sin corte | Seamless transition | `Transición imperceptible` |
-| Corte directo | Hard cut | `Corte directo al plano siguiente` |
-| Fundido de entrada | Fade in | `Fundido desde negro` |
-| Fundido encadenado | Dissolve | `Fundido encadenado entre planos` |
-| Desenfoque de movimiento | Motion blur | `Desenfoque de movimiento, velocidad` |
-
----
-
-## E.8 Sonido y Audio · Audio & Sound
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Ambiente sonoro | Ambient sound | `Ambiente de mercado al aire libre` |
-| Efectos de sonido | Sound effects (SFX) | `Efecto de impacto fuerte` |
-| Banda sonora | Soundtrack | `Banda sonora orquestal épica` |
-| Narración en off | Voiceover / Narration | `Narración en off, voz grave` |
-| Silencio | Silence | `Silencio total, tensión` |
-| Reverberación | Reverb | `Reverb de catedral` |
-| BPM | BPM | `120 BPM, ritmo tropical` |
-
----
-
-## E.9 Estructura Narrativa · Narrative Structure
+## E.18 Estructura Narrativa · Narrative Structure
 
 | Español | English | Uso en prompt |
 |---|---|---|
@@ -163,38 +379,7 @@ Los prompts en español funcionan especialmente bien para atmósferas cálidas, 
 
 ---
 
-## E.10 Efectos Visuales · VFX
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Partículas | Particle effects | `Partículas doradas flotando` |
-| Explosión | Explosion | `Explosión con onda de choque` |
-| Magia | Magic FX | `Energía mágica rodeando las manos` |
-| Transformación | Transformation | `Transformación con efectos de luz` |
-| Desintegración | Disintegrate | `Se desintegra en polvo dorado` |
-| Holograma | Hologram | `Interfaz holográfica` |
-| Aura | Aura / Glow | `Aura luminosa alrededor del cuerpo` |
-
----
-
-## E.11 Acción y Lucha · Action & Fight
-
-| Español | English | Uso en prompt |
-|---|---|---|
-| Puñetazo | Punch | `Puñetazo directo` |
-| Patada | Kick | `Patada giratoria` |
-| Bloqueo / Parada | Block | `Parada con el antebrazo` |
-| Esquiva | Dodge | `Esquiva lateral` |
-| Rodada | Roll | `Rodada hacia adelante` |
-| Agarre | Grab / Grapple | `Agarre de la muñeca` |
-| Lanzamiento | Throw | `Lanzamiento por encima del hombro` |
-| Combinación | Combo | `Combinación de tres golpes` |
-| Contraataque | Counter-attack | `Contraataque tras esquiva` |
-| Golpe final | Finishing move | `Golpe final decisivo` |
-
----
-
-## E.12 Estética Hispana · Hispanic & Latin Aesthetic Concepts
+## E.19 Estética Hispana · Hispanic & Latin Aesthetic Concepts
 
 | Término | Concepto | Uso en prompt |
 |---|---|---|
@@ -208,7 +393,7 @@ Los prompts en español funcionan especialmente bien para atmósferas cálidas, 
 
 ---
 
-## E.13 Frases Listas · Prompt-Ready Phrases
+## E.20 Frases Listas · Prompt-Ready Phrases
 
 ### Tamaño de plano
 `Gran plano general para establecer` · `Plano entero cuerpo completo` · `Plano medio cintura arriba` · `Primer plano rostro` · `Primerísimo primer plano ojos`

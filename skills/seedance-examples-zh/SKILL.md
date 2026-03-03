@@ -3,6 +3,7 @@ name: seedance-examples-zh
 description: 'Browse 16+ battle-tested, production-ready Chinese prompt examples for Seedance 2.0 across 8 genres: drama, action, advertising, animation, product, one-take, VFX, and music sync. Use to learn advanced prompt structure, copy-paste working examples, or find inspiration for new scenes.'
 license: MIT
 user-invocable: true
+user-invokable: true
 tags: ["examples", "prompts", "chinese", "i18n", "openclaw", "antigravity", "gemini-cli"]
 metadata: {"version": "4.0.0", "updated": "2026-02-28", "openclaw": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "parent": "seedance-20", "antigravity": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
 ---

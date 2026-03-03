@@ -6,6 +6,20 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [4.2.0] — 2026-03-03
+### Added
+- **Safe Vocabulary Integration** — Added filter-safe action, weapon, clothing, body, environment, material, VFX, sound, and production-context vocabulary to `seedance-filter` and all 5 language vocabulary skills.
+- Term counts expanded: `vocab-zh` 550+, `vocab-ja` 450+, `vocab-ko` 450+, `vocab-es` 450+, `vocab-ru` 450+.
+- New categories per language: Safe Action & Combat, Safe Weapon, Safe Clothing & Armor, Safe Body & Physique, VFX Particles & Energy, Diegetic Audio, Safe Environment, Material & Surface, Production Context Tokens.
+
+### Changed
+- Root `SKILL.md` version bumped to `4.2.0` with `2026-03-03` date.
+- `README.md` updated: version badge `4.2.0`, term counts, architecture tree (23 sub-skills), compliance count.
+- All 5 vocabulary sub-skills bumped to `4.2.0`.
+- `seedance-filter` safe vocabulary database appended as master English reference.
+
+---
+
 ## [4.1.0] — 2026-03-02
 ### Added
 - **New `seedance-filter` skill** — Content filter intelligence module. Explains how the Seedance 2.0 content filter evaluates prompts (language-model-based intent assessment, not keyword matching), documents the 37% false-positive block rate, and provides actionable techniques: four-question framework, high-risk word avoidance, image upload best practices, Chinese prompt trick, and professional-language framing.

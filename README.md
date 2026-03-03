@@ -5,7 +5,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/Emily2040/seedance-2.0/releases"><img src="https://img.shields.io/badge/version-4.1.0-00f0ff?style=flat-square&labelColor=0d1117" alt="Version"></a>
+  <a href="https://github.com/Emily2040/seedance-2.0/releases"><img src="https://img.shields.io/badge/version-4.2.0-00f0ff?style=flat-square&labelColor=0d1117" alt="Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-b000ff?style=flat-square&labelColor=0d1117" alt="License"></a>
   <a href="skills"><img src="https://img.shields.io/badge/skills-23_modules-ff006e?style=flat-square&labelColor=0d1117" alt="Skills"></a>
   <a href="#-multilingual-precision"><img src="https://img.shields.io/badge/languages-5-ffbe0b?style=flat-square&labelColor=0d1117" alt="Languages"></a>
@@ -246,7 +246,7 @@ seedance-2.0/
 ├── SKILL.md                         ← Root entry point (75 lines)
 ├── LICENSE                          ← MIT
 ├── README.md                        ← You are here
-├── CHANGELOG.md                     ← v3.0.0 → v4.0.0
+├── CHANGELOG.md                     ← v3.0.0 → v4.2.0
 ├── .github/
 │   └── CODEOWNERS                   ← @Emily2040
 ├── skills/                          ← 22 modular sub-skills
@@ -309,7 +309,7 @@ All 22 skills pass the [AgentSkills open standard](https://agentskills.io/) vali
 
 ## `>` Changelog
 
-See [`CHANGELOG.md`](CHANGELOG.md) for the full version history from v3.0.0 to v4.0.0.
+See [`CHANGELOG.md`](CHANGELOG.md) for the full version history from v3.0.0 to v4.2.0.
 
 <br>
 

@@ -3,6 +3,7 @@ name: seedance-prompt-short
 description: 'Build, validate, and compress Seedance 2.0 prompts to a hard 2000-character limit using the Five-Layer Stack, @Tag delegation, and the new Compression Engine. Use when constructing or debugging any T2V, I2V, V2V, or R2V prompt for the short-form workflow.'
 license: MIT
 user-invocable: true
+user-invokable: true
 tags: [prompt, compression, t2v, i2v, v2v, r2v, character-limit, openclaw, antigravity, gemini-cli]
 metadata: {
   "version": "4.0.0",

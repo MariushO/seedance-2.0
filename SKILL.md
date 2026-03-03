@@ -5,7 +5,7 @@ license: MIT
 user-invocable: true
 user-invokable: true
 tags: ["ai-video", "filmmaking", "bytedance", "seedance", "multimodal", "lip-sync", "openclaw", "antigravity", "gemini-cli", "firebase", "codex", "cursor", "windsurf", "opencode"]
-metadata: {"version": "4.1.0", "updated": "2026-03-02", "openclaw": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "firebase": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+metadata: {"version": "4.2.0", "updated": "2026-03-03", "openclaw": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "firebase": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
 ---
 
 # seedance-20
@@ -77,6 +77,7 @@ opencode skills install https://github.com/Emily2040/seedance-2.0
 
 | Version | Date | Changes |
 |---|---|---|
+| 4.2.0 | 2026-03-03 | Safe Vocabulary Integration: added filter-safe action, weapon, clothing, body, environment, material, VFX, sound, and production-context terms to seedance-filter and all 5 language vocabulary skills (zh, ja, ko, es, ru). Term counts: zh 550+, ja/ko/es/ru 450+ each. |
 | 4.1.0 | 2026-03-02 | Added seedance-filter: content filter intelligence, 37% block-rate diagnosis, four-question framework, safe-prompting techniques. |
 | 4.0.0 | 2026-02-28 | Cognitive Architecture upgrade: L8 Construction-First interview, L7 Concealment Check prompt, L11 Conservation Law troubleshoot. Inspired by agi-in-md cognitive compression. |
 | 3.8.0 | 2026-02-27 | Dual Workflow System: Max Detail + Max Performance. Added seedance-prompt-short and seedance-interview-short. |

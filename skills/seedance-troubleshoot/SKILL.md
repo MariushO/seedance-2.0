@@ -3,8 +3,10 @@ name: seedance-troubleshoot
 description: "Diagnose and fix failing or low-quality Seedance 2.0 prompts using a cognitive, first-principles approach. Use when a prompt is consistently failing, producing generic output, or being rejected. Follow the \"Conservation Law\" workflow: Isolate → Invert → Re-build."
 license: MIT
 user-invocable: true
+user-invokable: true
 tags: ["debugging", "troubleshooting", "prompt-engineering", "quality-control", "root-cause-analysis", "seedance-20"]
 metadata: {"version": "4.0.0", "updated": "2026-02-28", "openclaw": {"emoji": "🔧", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🔧", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🔧", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+  "parent": "seedance-20",
 ---
 
 # seedance-troubleshoot · The Conservation Law (v4.0)

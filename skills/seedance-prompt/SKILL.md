@@ -3,8 +3,10 @@ name: seedance-prompt
 description: 'Construct a high-density, technically precise, and creatively potent prompt for Seedance 2.0. Use when a user has a clear vision and needs to translate it into a production-ready prompt. Follow the "Concealment Check" workflow: Deconstruct → Expose → Re-build.'
 license: MIT
 user-invocable: true
+user-invokable: true
 tags: ["prompt-engineering", "cinematography", "technical-writing", "pre-production", "visual-design", "seedance-20"]
 metadata: {"version": "4.0.0", "updated": "2026-02-28", "openclaw": {"emoji": "✍️", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "✍️", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "✍️", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+  "parent": "seedance-20",
 ---
 
 # seedance-prompt · The Concealment Check (v4.0)
